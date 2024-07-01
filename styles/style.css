@@ -4,15 +4,15 @@
   --primaryTextColor: #232e35; /* Untuk title atau judul */
   --secondaryTextColor: #656d72; /* Untuk text biasa seperti paragraph contohnya */
 
-  --borderColor: #f1f1f1;
-  --lineColor: #d9d9d9; /* untuk line di pre-title */
+  --borderColor: #000000;
+  --lineColor: #000000; /* untuk line di pre-title */
 
   --primaryBackgroundColor: #fff;
   --secondaryBackgroundColor: #fbfbfb;
   --thirdBackgroundColor: #f5f3fe;
 
-  --primaryIconColor: #7e74f1;
-  --primaryIconColorHover: #5d51e8;
+  --primaryIconColor: #03d5ff94;
+  --primaryIconColorHover: #03d5ff94;
 
   --sectionPadding: 6rem 0;
 
@@ -63,6 +63,16 @@ a {
 .main-container {
   width: 1200px;
   margin: 0 auto;
+}
+
+.hero-right {
+  
+  
+  background: var(--thirdBackgroundColor);
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.5rem;
 }
 
 @media screen and (max-width: 1200px) {
@@ -317,6 +327,11 @@ nav ul li a {
   color: var(--secondaryTextColor);
 }
 
+
+
+
+
+
 /* Skills and Education */
 #skills {
   padding: var(--sectionPadding);
@@ -478,3 +493,4 @@ footer {
 .footer-icons a:hover svg {
   fill: #000;
 }
+
